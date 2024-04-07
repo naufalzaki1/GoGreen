@@ -3,6 +3,8 @@
 @section('title')
 
 @endsection
+
+@section('content')
 <div id="banner">
       <div class="rev_slider_wrapper banner-style-two">
         <!-- START REVOLUTION SLIDER 5.0 auto mode -->
@@ -124,10 +126,13 @@
                 data-responsive_offset="on"
                 style="z-index: 6; white-space: nowrap"
               >
+              @unless (Auth::user())
                 <div class="button">
                   <a href="{{route('login')}}" class="btn-one">Login</a>
                   <a href="{{route('register')}}" class="btn-two">Register</a>
                 </div>
+              @endunless
+                
               </div>
             </li>
 
@@ -245,10 +250,13 @@
                 data-responsive_offset="on"
                 style="z-index: 6; white-space: nowrap"
               >
-                {{-- <div class="button">
-                  <a href="#" class="btn-one">Learn More</a>
-                  <a href="#" class="btn-two">Join With Us</a>
-                </div> --}}
+              @unless (Auth::user())
+                <div class="button">
+                  <a href="{{route('login')}}" class="btn-one">Login</a>
+                  <a href="{{route('register')}}" class="btn-two">Register</a>
+                </div>
+              @endunless
+                
               </div>
             </li>
           </ul>
@@ -735,5 +743,5 @@
     <div class="scroll-to-top scroll-to-target" data-target=".main-header">
       <span class="icon fa fa-angle-up"></span>
     </div>
-@section('content')
+@endsection
 

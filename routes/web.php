@@ -42,4 +42,5 @@ Route::controller(UserController::class)->group(function () {
     Route::post('/login', 'doLogin')->name('doLogin');
     Route::get('/register', 'register')->name('register');
     Route::post('/register', 'doRegister')->name('doRegister');
+    Route::get('/logout', 'doLogout')->name('doLogout');
 });
