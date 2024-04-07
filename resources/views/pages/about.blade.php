@@ -29,7 +29,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12 welcome-column">
             <div class="single-item">
               <div class="img-box">
-                <figure><img src="{{asset('images/welcome/1.jpg')}}" alt="" /></figure>
+                <figure><img src="{{asset('assets/images/welcome/1.jpg')}}" alt="" /></figure>
               </div>
               <div class="lower-content">
                 <div class="content-text">
@@ -45,7 +45,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12 welcome-column">
             <div class="single-item">
               <div class="img-box">
-                <figure><img src="{{asset('images/welcome/2.jpg')}}" alt="" /></figure>
+                <figure><img src="{{asset('assets/images/welcome/2.jpg')}}" alt="" /></figure>
               </div>
               <div class="lower-content">
                 <div class="content-text">
@@ -61,7 +61,7 @@
           <div class="col-md-4 col-sm-6 col-xs-12 welcome-column">
             <div class="single-item">
               <div class="img-box">
-                <figure><img src="{{asset('images/welcome/3.jpg')}}" alt="" /></figure>
+                <figure><img src="{{asset('assets/images/welcome/3.jpg')}}" alt="" /></figure>
               </div>
               <div class="lower-content">
                 <div class="content-text">
@@ -120,7 +120,7 @@
                     <div class="content-text">
                       <div class="img-box">
                         <figure>
-                          <img src="{{asset('images/service/1.png')}}" alt="" />
+                          <img src="{{asset('assets/images/service/1.png')}}" alt="" />
                         </figure>
                       </div>
                       <p>
@@ -151,7 +151,7 @@
                     <div class="content-text">
                       <div class="img-box">
                         <figure>
-                          <img src="{{asset('images/service/2.png')}}" alt="" />
+                          <img src="{{asset('assets/images/service/2.png')}}" alt="" />
                         </figure>
                       </div>
                       <p>
@@ -182,7 +182,7 @@
                     <div class="content-text">
                       <div class="img-box">
                         <figure>
-                          <img src="{{asset('images/service/3.png')}}" alt="" />
+                          <img src="{{asset('assets/images/service/3.png')}}" alt="" />
                         </figure>
                       </div>
                       <p>
@@ -213,7 +213,7 @@
                     <div class="content-text">
                       <div class="img-box">
                         <figure>
-                          <img src="{{asset('images/service/4.png')}}" alt="" />
+                          <img src="{{asset('assets/images/service/4.png')}}" alt="" />
                         </figure>
                       </div>
                       <p>
@@ -244,7 +244,7 @@
                     <div class="content-text">
                       <div class="img-box">
                         <figure>
-                          <img src="{{asset('images/service/5.png')}}" alt="" />
+                          <img src="{{asset('assets/images/service/5.png')}}" alt="" />
                         </figure>
                       </div>
                       <p>
@@ -293,7 +293,7 @@
         <div class="three-column-carousel">
           <div class="single-item">
             <div class="img-box">
-              <figure><img src="{{asset('images/team/1.jpg')}}" alt="" /></figure>
+              <figure><img src="{{asset('assets/images/team/1.jpg')}}" alt="" /></figure>
             </div>
             <div class="lower-content">
               <ul class="team-social">
@@ -316,7 +316,7 @@
           </div>
           <div class="single-item">
             <div class="img-box">
-              <figure><img src="{{asset('images/team/2.jpg')}}" alt="" /></figure>
+              <figure><img src="{{asset('assets/images/team/2.jpg')}}" alt="" /></figure>
             </div>
             <div class="lower-content">
               <ul class="team-social">
@@ -341,7 +341,7 @@
           </div>
           <div class="single-item">
             <div class="img-box">
-              <figure><img src="{{asset('images/team/3.jpg')}}" alt="" /></figure>
+              <figure><img src="{{asset('assets/images/team/3.jpg')}}" alt="" /></figure>
             </div>
             <div class="lower-content">
               <ul class="team-social">
@@ -364,7 +364,7 @@
           </div>
           <div class="single-item">
             <div class="img-box">
-              <figure><img src="{{asset('images/team/4.jpg')}}" alt="" /></figure>
+              <figure><img src="{{asset('assets/images/team/4.jpg')}}" alt="" /></figure>
             </div>
             <div class="lower-content">
               <ul class="team-social">
@@ -407,7 +407,7 @@
                   <div class="author-title">Imam masjid</div>
                 </div>
                 <div class="author-img">
-                  <figure><img src="{{asset('images/testimonial/1.jpg')}}" alt="" /></figure>
+                  <figure><img src="{{asset('assets/images/testimonial/1.jpg')}}" alt="" /></figure>
                 </div>
               </div>
               <div class="text">
@@ -424,7 +424,7 @@
                   <div class="author-title">Info tugas</div>
                 </div>
                 <div class="author-img">
-                  <figure><img src="{{asset('images/testimonial/2.jpg')}}" alt="" /></figure>
+                  <figure><img src="{{asset('assets/images/testimonial/2.jpg')}}" alt="" /></figure>
                 </div>
               </div>
               <div class="text">
@@ -442,7 +442,7 @@
                   <div class="author-title">User mm mage</div>
                 </div>
                 <div class="author-img">
-                  <figure><img src="{{asset('images/testimonial/3.jpg')}}" alt="" /></figure>
+                  <figure><img src="{{asset('assets/images/testimonial/3.jpg')}}" alt="" /></figure>
                 </div>
               </div>
               <div class="text">
@@ -460,27 +460,27 @@
           <ul class="brand-slider">
             <li>
               <a href="#"
-                ><figure><img src="{{asset('images/brand/1.png')}}" alt="" /></figure
+                ><figure><img src="{{asset('assets/images/brand/1.png')}}" alt="" /></figure
               ></a>
             </li>
             <li>
               <a href="#"
-                ><figure><img src="{{asset('images/brand/2.png')}}" alt="" /></figure
+                ><figure><img src="{{asset('assets/images/brand/2.png')}}" alt="" /></figure
               ></a>
             </li>
             <li>
               <a href="#"
-                ><figure><img src="{{asset('images/brand/3.png')}}" alt="" /></figure
+                ><figure><img src="{{asset('assets/images/brand/3.png')}}" alt="" /></figure
               ></a>
             </li>
             <li>
               <a href="#"
-                ><figure><img src="{{asset('images/brand/4.png')}}" alt="" /></figure
+                ><figure><img src="{{asset('assets/images/brand/4.png')}}" alt="" /></figure
               ></a>
             </li>
             <li>
               <a href="#"
-                ><figure><img src="{{asset('images/brand/5.png')}}" alt="" /></figure
+                ><figure><img src="{{asset('assets/images/brand/5.png')}}" alt="" /></figure
               ></a>
             </li>
           </ul>

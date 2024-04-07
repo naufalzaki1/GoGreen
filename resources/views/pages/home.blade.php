@@ -402,7 +402,7 @@
                   <a href="#"><i class="fa fa-instagram"></i></a>
                 </li>
               </ul>
-              <div class="name"><a href="#">Steve Alia</a></div>
+              <div class="name"><a href="#">Zenith</a></div>
               <div class="title">Volunteer</div>
             </div>
           </div>
@@ -425,7 +425,7 @@
                   <a href="#"><i class="fa fa-instagram"></i></a>
                 </li>
               </ul>
-              <div class="name"><a href="#">Mark Richarson</a></div>
+              <div class="name"><a href="#">Fauzan</a></div>
               <div class="title">Volunteer</div>
             </div>
           </div>
@@ -448,7 +448,7 @@
                   <a href="#"><i class="fa fa-instagram"></i></a>
                 </li>
               </ul>
-              <div class="name"><a href="#">Jom Caraleno</a></div>
+              <div class="name"><a href="#">Joevanz </a></div>
               <div class="title">Volunteer</div>
             </div>
           </div>
@@ -470,46 +470,53 @@
             <div class="testimonials-content">
               <div class="author-info">
                 <div class="author">
-                  <h4>Adam Rose</h4>
-                  <div class="author-title">Art Director</div>
+                  <h4>Afzal</h4>
+                  <div class="author-title">Imam masjid</div>
                 </div>
                 <div class="author-img">
-                  <figure><img src="{{asset('assets/images/testimonial/1.png')}}" alt="" /></figure>
+                  <figure><img src="{{asset('assets/images/testimonial/1.jpg')}}" alt="" /></figure>
                 </div>
               </div>
               <div class="text">
-                “Leverage agile frameworks to provide robust synopsis for high
-                level overviews. It Iterative approaches fosterthe proposition.”
+                “Saya sangat terkesan dengan web ini! Sangat banyak membantu
+                serta memberikan informasi yang lengkap. Dengan bantuan web ini,
+                saya lebih tau sebab akibat jika tidak ada perlindungan kita.
+                Terima kasih atas kontribusi yang sangat berarti!”
               </div>
             </div>
             <div class="testimonials-content">
               <div class="author-info">
                 <div class="author">
-                  <h4>David Warner</h4>
-                  <div class="author-title">Photographer</div>
+                  <h4>Dyto</h4>
+                  <div class="author-title">Info tugas</div>
                 </div>
                 <div class="author-img">
-                  <figure><img src="{{asset('assets/images/testimonial/2.png')}}" alt="" /></figure>
+                  <figure><img src="{{asset('assets/images/testimonial/2.jpg')}}" alt="" /></figure>
                 </div>
               </div>
               <div class="text">
-                “Leverage agile frameworks to provide robust synopsis for high
-                level overviews. It Iterative approaches fosterthe proposition.”
+                “"Saya benar-benar terkesan dengan web ini! Dengan fitur dan
+                konten yang berkualitas, web ini telah menjadi sumber
+                pengetahuan yang memberikan informasi. Terima kasih kepada tim
+                atas usaha dalam menyediakan layanan yang sangat membantu bagi
+                banyak orang!”
               </div>
             </div>
             <div class="testimonials-content">
               <div class="author-info">
                 <div class="author">
-                  <h4>James Leon</h4>
-                  <div class="author-title">Socialist</div>
+                  <h4>Zhilan</h4>
+                  <div class="author-title">User mm mage</div>
                 </div>
                 <div class="author-img">
-                  <figure><img src="{{asset('assets/images/testimonial/3.png')}}" alt="" /></figure>
+                  <figure><img src="{{asset('assets/images/testimonial/3.jpg')}}" alt="" /></figure>
                 </div>
               </div>
               <div class="text">
-                “Leverage agile frameworks to provide robust synopsis for high
-                level overviews. It Iterative approaches fosterthe proposition.”
+                “Web ini sungguh luar biasa! Saya sekarang memiliki pemahaman
+                yang jelas tentang cara memilah dan mendaur ulang sampah dengan
+                benar. Saya juga menemukan banyak ide kreatif untuk mengurangi
+                limbah di rumah saya. Terima kasih kepada web ini.”
               </div>
             </div>
           </div>

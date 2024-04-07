@@ -1,13 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <!-- main footer area -->
+@unless (Auth::user())
+  <footer class="main-footer-area footer-style-two">
+      <div class="container">
+        <div class="footer-top centred sec-pad">
+          <div class="footer-logo">
+            <a href="index.html"
+              ><figure>
+                <img src="{{asset('assets/images/footer/footer-logo2.png')}}" alt="" /></figure
+            ></a>
+          </div>
+          <ul class="footer-social">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-pinterest-p"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom centred">
+        <div class="copyright">
+          Copyright © 2018 <a href="#">Benxi</a>. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    @else
     <footer class="main-footer-area">
         <div class="main-footer">
           <div class="container">
@@ -123,5 +152,7 @@
           </div>
         </div>
       </footer>
-</body>
-</html>
+@endunless
+
+    <!-- main footer area -->
+    
