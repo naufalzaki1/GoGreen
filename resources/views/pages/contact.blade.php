@@ -105,19 +105,8 @@
             </div>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 contact-column">
-            <div class="google-map-area">
-              <div
-                class="google-map"
-                id="contact-google-map"
-                data-map-lat="-7.26847"
-                data-map-lng="112.78456"
-                data-icon-path="{{asset('images/resources/map-marker.png')}}"
-                data-map-title="Brooklyn, New York, United Kingdom"
-                data-map-zoom="12"
-                data-markers='{
-                                "marker-1": [-7.26847, 112.78456, "<h4>Universitas Airlangga</h4><p>Kampus C, Surabaya, Indonesia</p>","{{asset('images/resources/map-marker.png')}}"]
-                            }'
-              ></div>
+            <div class="col-md-6 col-sm-12 col-xs-12 contact-column">
+              <img src="{{asset('assets/images/logouner.jpg')}}" style="width:400px;height:400px;margin-left:100px"alt="">
             </div>
           </div>
         </div>

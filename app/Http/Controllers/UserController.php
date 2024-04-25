@@ -66,7 +66,7 @@ class UserController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6',
+            'password' => 'required|string|min:8|max:12|regex:/^(?=.*[A-Za-z])(?=.*\d).+$/',
             'confirm_password' => 'required|same:password',
         ]);
 
@@ -75,15 +75,16 @@ class UserController extends Controller
             return redirect('/register')
                 ->withErrors($validator)
                 ->withInput();
+        } else {
+            User::create([
+                'name' => $request->input('name'),
+                'email' => $request->input('email'),
+                'password' => bcrypt($request->input('password')),
+            ]);
+            return redirect('/login')->with('success', 'Registration successful. Please log in.');
         }
 
-        User::create([
-            'name' => $request->input('name'),
-            'email' => $request->input('email'),
-            'password' => bcrypt($request->input('password')),
-        ]);
 
-        return redirect('/login')->with('success', 'Registration successful. Please log in.');
     }
 
     /**

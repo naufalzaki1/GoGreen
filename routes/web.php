@@ -44,3 +44,5 @@ Route::controller(UserController::class)->group(function () {
     Route::post('/register', 'doRegister')->name('doRegister');
     Route::get('/logout', 'doLogout')->name('doLogout');
 });
+
+require __DIR__.'/auth.php';

@@ -106,6 +106,13 @@
         <div class="container">
             <div class="right">
                 <div class="form">
+                        @if ($errors->any())
+                            <div class="error-message">
+                                    @foreach ($errors->all() as $error)
+                                        <p style='color:red'>{{ $error }}</p>
+                                    @endforeach
+                            </div>
+                        @endif
                     <form id="registerForm" method="POST" action="{{ route('doRegister') }}">
                         @csrf
                         <h2 class="title">Register for an account.</h2>
